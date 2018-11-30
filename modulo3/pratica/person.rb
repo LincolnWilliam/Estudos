@@ -1,4 +1,13 @@
+module FazSoma  #mix criar metodos para um modulo e incluir em uma class
+  def soma(a, b)
+    puts a + b
+  end
+end
+ 
+
 class Person
+ include FazSoma # incluido metodo a+b
+
     def initialize(name, age, height, sex)
       @name = name
       @age = age

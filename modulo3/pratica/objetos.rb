@@ -23,4 +23,4 @@ atleta.my_sport
 atleta .set_sport("tiro")
 atleta.introduce
 atleta.my_sport 
- 
+atleta.soma(5,7)
